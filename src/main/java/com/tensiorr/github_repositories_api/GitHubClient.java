@@ -8,7 +8,7 @@ import org.springframework.web.client.RestClient;
 import java.util.List;
 
 @Component
-public class GitHubClient {
+class GitHubClient {
 
     private final RestClient restClient;
 
