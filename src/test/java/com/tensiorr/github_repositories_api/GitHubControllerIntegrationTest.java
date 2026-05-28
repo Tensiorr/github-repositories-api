@@ -18,7 +18,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 public class GitHubControllerIntegrationTest {
 
     private RestTemplate restTemplate;
-    static WireMockServer wireMockServer;
+    private WireMockServer wireMockServer;
 
     @LocalServerPort
     private int port;
